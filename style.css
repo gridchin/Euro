@@ -1,0 +1,663 @@
+/*	Resets	*/
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, hr, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, figure, figcaption, hgroup, menu, footer, header, nav, section, summary, time, mark, audio, video {		
+	margin: 0;		
+	padding: 0;		
+	border: 0;
+}
+
+article, aside, canvas, figure, figure img, figcaption, hgroup,footer, header, nav, section, audio, video {		
+	display: block;
+}
+
+
+
+/*	Global	*/
+	
+body {		
+	font: 14px/1.6 'Open Sans', sans-serif;		
+	color: #333;		
+	background-color: #ebecee;		
+	width: 100%;
+}
+
+a, a img {
+	color: #aaa;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #333;
+}
+
+
+
+/*	Experiment	*/  
+
+section {	
+	position: relative;
+	width: 700px;
+	margin: 100px;
+}
+
+figure {
+	position: absolute;
+	background-color: #aaa;
+	-webkit-border-radius: 70px;
+	-moz-border-radius: 70px;
+	border-radius: 70px;
+	-webkit-transition: all 0.7s ease-out;
+	-moz-transition: all 0.7s ease-out;
+	-o-transition: all 0.7s ease-out;
+	transition: all 0.7s ease-out;
+}
+
+figure:hover {
+	transform: scale(1.2,1.2);
+	-ms-transform: scale(1.2,1.2);
+	-webkit-transform: scale(1.2,1.2);
+	-o-transform: scale(1.2,1.2);
+	-moz-transform: scale(1.2,1.2);
+}
+
+.f1, .f6, .f11 {
+	width: 42px;
+	height: 42px;
+	left: 0;
+	animation: col1 7s infinite;
+	-moz-animation: col1 7s infinite;
+	-webkit-animation: col1 7s infinite;  
+}
+	
+  @keyframes col1 {  
+    0% {margin-top: -10px;}  
+    50% {margin-top: 10px;}
+    100% {margin-top: -10px;}  
+  }
+  @-moz-keyframes col1 {  
+    0% {margin-top: -10px;}  
+    50% {margin-top: 10px;}
+    100% {margin-top: -10px;}  
+  }	
+  @-webkit-keyframes col1 {  
+    0% {margin-top: -10px;}  
+    50% {margin-top: 10px;}
+    100% {margin-top: -10px;}  
+  }  
+
+.f2, .f7, .f12 {
+	width: 58px;
+	height: 58px;
+	left: 53px;
+	animation: col2 6s infinite;
+	-moz-animation: col2 6s infinite;
+	-webkit-animation: col2 6s infinite;
+}
+
+  @keyframes col2 {  
+    0% {margin-top: -10px;}  
+    50% {margin-top: 10px;}
+    100% {margin-top: -10px;}  
+  }
+  @-moz-keyframes col2 {  
+    0% {margin-top: -10px;}  
+    50% {margin-top: 10px;}
+    100% {margin-top: -10px;}  
+  }	
+  @-webkit-keyframes col2 {  
+    0% {margin-top: -10px;}  
+    50% {margin-top: 10px;}
+    100% {margin-top: -10px;}  
+  }
+  
+.f3, .f8, .f13 {
+	width: 77px;
+	height: 77px;
+	left: 122px;
+	animation: col3 5s infinite;
+	-moz-animation: col3 5s infinite;
+	-webkit-animation: col3 5s infinite;
+}
+
+  @keyframes col3 {  
+    0% {margin-top: -10px;}  
+    50% {margin-top: 10px;}
+    100% {margin-top: -10px;}  
+  }
+  @-moz-keyframes col3 {  
+    0% {margin-top: -10px;}  
+    50% {margin-top: 10px;}
+    100% {margin-top: -10px;}  
+  }	
+  @-webkit-keyframes col3 {  
+    0% {margin-top: -10px;}  
+    50% {margin-top: 10px;}
+    100% {margin-top: -10px;}  
+  }
+
+.f4, .f9, .f14 {
+	width: 103px;
+	height: 103px;
+	left: 210px;
+	animation: col4 4s infinite;
+	-moz-animation: col4 4s infinite;
+	-webkit-animation: col4 4s infinite;
+}
+
+  @keyframes col4 {  
+    0% {margin-top: -10px;}  
+    50% {margin-top: 10px;}
+    100% {margin-top: -10px;}  
+  }
+  @-moz-keyframes col4 {  
+    0% {margin-top: -10px;}  
+    50% {margin-top: 10px;}
+    100% {margin-top: -10px;}  
+  }	
+  @-webkit-keyframes col4 {  
+    0% {margin-top: -10px;}  
+    50% {margin-top: 10px;}
+    100% {margin-top: -10px;}  
+  }
+
+.f5, .f10, .f15 {
+	width: 138px;
+	height: 138px;
+	left: 330px;
+	animation: col5 3s infinite;
+	-moz-animation: col5 3s infinite;
+	-webkit-animation: col5 3s infinite;
+}
+
+  @keyframes col5 {  
+    0% {margin-top: -10px;}  
+    50% {margin-top: 10px;}
+    100% {margin-top: -10px;}  
+  }
+  @-moz-keyframes col5 {  
+    0% {margin-top: -10px;}  
+    50% {margin-top: 10px;}
+    100% {margin-top: -10px;}  
+  }	
+  @-webkit-keyframes col5 {  
+    0% {margin-top: -10px;}  
+    50% {margin-top: 10px;}
+    100% {margin-top: -10px;}  
+  }
+
+.f1, .f2, .f3, .f4, .f5 {
+	top: 0;
+}
+
+.f6 {
+	top: 54px;
+}
+
+.f7 {
+	top: 75px;
+}
+
+.f8 {
+	top: 101px;
+}
+
+.f9 {
+	top: 137px;
+}
+
+.f10 {
+	top: 184px;
+}
+
+.f11 {
+	top: 108px;
+}
+
+.f12 {
+	top: 150px;
+}
+
+.f13 {
+	top: 201px;
+}
+
+.f14 {
+	top: 272px;
+}
+
+.f15 {
+	top: 368px;
+}
+
+select {
+	position: fixed;
+	top: 90px;
+	right: 30px;
+}
+
+p {
+	position: fixed;
+	bottom: 15px;
+	right: 30px;
+}
+
+
+
+/*	Austria	*/
+
+.austria .f1, .austria .f2, .austria .f3, .austria .f4, .austria .f5,
+.austria .f11, .austria .f12, .austria .f13, .austria .f14, .austria .f15 {
+	background-color: #bf3330;
+}
+
+.austria .f6, .austria .f7, .austria .f8, .austria .f9, .austria .f10 {
+	background-color: #fff;
+}
+
+
+
+/*	Belgium	*/
+
+.belgium .f1, .belgium .f2, .belgium .f6, .belgium .f7, .belgium .f11, .belgium .f12 {
+	background-color: #302e2f;
+}
+
+.belgium .f3, .belgium .f4, .belgium .f8, .belgium .f9, .belgium .f13, .belgium .f14 {
+	background-color: #fbbd1d;
+}
+
+.belgium .f5, .belgium .f10, .belgium .f15 {
+	background-color: #bf3330;
+}
+
+
+
+/*	Bulgaria	*/
+
+.bulgaria .f1, .bulgaria .f2, .bulgaria .f3, .bulgaria .f4, .bulgaria .f5 {
+	background-color: #fff;
+}
+
+.bulgaria .f6, .bulgaria .f7, .bulgaria .f8, .bulgaria .f9, .bulgaria .f10 {
+	background-color: #1aa461;
+}
+
+.bulgaria .f11, .bulgaria .f12, .bulgaria .f13, .bulgaria .f14, .bulgaria .f15 {
+	background-color: #bf3330;
+}
+
+
+
+/*	Cyprus	*/
+
+.cyprus figure {
+	background-color: #fff;
+}
+
+.cyprus .f8, .cyprus .f9 {
+	background-color: #ed8200;
+}
+
+
+
+/*	Czech Republic	*/
+
+.czech .f1, .czech .f2, .czech .f6, .czech .f7, .czech .f8, .czech .f11, .czech .f12 {
+	background-color: #3b459d;
+}
+
+.czech .f3, .czech .f4, .czech .f5 {
+	background-color: #fff;
+}
+
+.czech .f9, .czech .f10, .czech .f13, .czech .f14, .czech .f15 {
+	background-color: #eb3730;
+}
+
+
+
+/*	Denmark	*/
+
+.denmark .f1, .denmark .f2, .denmark .f4, .denmark .f5, .denmark .f11, .denmark .f12, .denmark .f14, .denmark .f15 {
+	background-color: #f74c4f;
+}
+
+.denmark .f3, .denmark .f6, .denmark .f7, .denmark .f8, .denmark .f9, .denmark .f10, .denmark .f13 {
+	background-color: #fff;
+}
+
+
+
+/*	Estonia	*/
+
+.estonia .f1, .estonia .f2, .estonia .f3, .estonia .f4, .estonia .f5 {
+	background-color: #4392dc;
+}
+
+.estonia .f6, .estonia .f7, .estonia .f8, .estonia .f9, .estonia .f10 {
+	background-color: #322e2f;
+}
+
+.estonia .f11, .estonia .f12, .estonia .f13, .estonia .f14, .estonia .f15 {
+	background-color: #fff;
+}
+
+
+
+/*	Finland	*/
+
+.finland .f1, .finland .f2, .finland .f4, .finland .f5, .finland .f11, .finland .f12, .finland .f14, .finland .f15 {
+	background-color: #fff;
+}
+
+.finland .f3, .finland .f6, .finland .f7, .finland .f8, .finland .f9, .finland .f10, .finland .f13 {
+	background-color: #3d449d;
+}
+
+
+
+/*	France	*/
+
+.france .f1, .france .f2, .france .f6, .france .f7, .france .f11, .france .f12 {
+	background-color: #3a449c;
+}
+
+.france .f3, .france .f4, .france .f8, .france .f9, .france .f13, .france .f14 {
+	background-color: #fff;
+}
+
+.france .f5, .france .f10, .france .f15 {
+	background-color: #eb3831;
+}
+
+
+
+/*	Germany	*/
+
+.germany .f1, .germany .f2, .germany .f3, .germany .f4, .germany .f5 {
+	background-color: #302e2f;
+}
+
+.germany .f6, .germany .f7, .germany .f8, .germany .f9, .germany .f10 {
+	background-color: #d83530;
+}
+
+.germany .f11, .germany .f12, .germany .f13, .germany .f14, .germany .f15 {
+	background-color: #ecb900;
+}
+
+
+
+/*	Greece	*/
+
+.greece .f1, .greece .f3, .greece .f4, .greece .f5, .greece .f9, .greece .f10, .greece .f11, .greece .f13, .greece .f14, .greece .f15 {
+	background-color: #286fb1;
+}
+
+.greece .f2, .greece .f6, .greece .f7, .greece .f8, .greece .f12 {
+	background-color: #fff;
+}
+
+
+
+/*	Hungary	*/
+
+.hungary .f1, .hungary .f2, .hungary .f3, .hungary .f4, .hungary .f5 {
+	background-color: #cd1f21;
+}
+
+.hungary .f6, .hungary .f7, .hungary .f8, .hungary .f9, .hungary .f10 {
+	background-color: #fff;
+}
+
+.hungary .f11, .hungary .f12, .hungary .f13, .hungary .f14, .hungary .f15 {
+	background-color: #12864e;
+}
+
+
+
+/*	Ireland	*/
+
+.ireland .f1, .ireland .f2, .ireland .f6, .ireland .f7, .ireland .f11, .ireland .f12 {
+	background-color: #12864e;
+}
+
+.ireland .f3, .ireland .f4, .ireland .f8, .ireland .f9, .ireland .f13, .ireland .f14 {
+	background-color: #fff;
+}
+
+.ireland .f5, .ireland .f10, .ireland .f15 {
+	background-color: #ff7c00;
+}
+
+
+
+/*	Italy	*/
+
+.italy .f1, .italy .f2, .italy .f6, .italy .f7, .italy .f11, .italy .f12 {
+	background-color: #0e7144;
+}
+
+.italy .f3, .italy .f4, .italy .f8, .italy .f9, .italy .f13, .italy .f14 {
+	background-color: #fff;
+}
+
+.italy .f5, .italy .f10, .italy .f15 {
+	background-color: #c72218;
+}
+
+
+
+/*	Latvia	*/
+
+.latvia .f1, .latvia .f2, .latvia .f3, .latvia .f4, .latvia .f5,
+.latvia .f11, .latvia .f12, .latvia .f13, .latvia .f14, .latvia .f15 {
+	background-color: #800926;
+}
+
+.latvia .f6, .latvia .f7, .latvia .f8, .latvia .f9, .latvia .f10 {
+	background-color: #fff;
+}
+
+
+
+/*	Lithuania	*/
+
+.lithuania .f1, .lithuania .f2, .lithuania .f3, .lithuania .f4, .lithuania .f5 {
+	background-color: #e9b600;
+}
+
+.lithuania .f6, .lithuania .f7, .lithuania .f8, .lithuania .f9, .lithuania .f10 {
+	background-color: #0c6f48;
+}
+
+.lithuania .f11, .lithuania .f12, .lithuania .f13, .lithuania .f14, .lithuania .f15 {
+	background-color: #cd332f;
+}
+
+
+
+/*	Luxembourg	*/
+
+.luxembourg .f1, .luxembourg .f2, .luxembourg .f3, .luxembourg .f4, .luxembourg .f5 {
+	background-color: #d63530;
+}
+
+.luxembourg .f6, .luxembourg .f7, .luxembourg .f8, .luxembourg .f9, .luxembourg .f10 {
+	background-color: #fff;
+}
+
+.luxembourg .f11, .luxembourg .f12, .luxembourg .f13, .luxembourg .f14, .luxembourg .f15 {
+	background-color: #00a1e1;
+}
+
+
+
+/*	Malta	*/
+
+.malta .f1, .malta .f2, .malta .f3,
+.malta .f6, .malta .f7, .malta .f8,
+.malta .f11, .malta .f12, .malta .f13 {
+	background-color: #fff;
+}
+
+.malta .f4, .malta .f5,
+.malta .f9, .malta .f10,
+.malta .f14, .malta .f15 {
+	background-color: #d63530;
+}
+
+
+/*	Netherlands	*/
+
+.netherlands .f1, .netherlands .f2, .netherlands .f3, .netherlands .f4, .netherlands .f5 {
+	background-color: #d43430;
+}
+
+.netherlands .f6, .netherlands .f7, .netherlands .f8, .netherlands .f9, .netherlands .f10 {
+	background-color: #fff;
+}
+
+.netherlands .f11, .netherlands .f12, .netherlands .f13, .netherlands .f14, .netherlands .f15 {
+	background-color: #1a478e;
+}
+
+
+
+/*	Poland	*/
+
+.poland .f1, .poland .f2, .poland .f3, .poland .f4, .poland .f5 {
+	background-color: #fff;
+}
+
+.poland .f6, .poland .f7, .poland .f8, .poland .f9, .poland .f10,
+.poland .f11, .poland .f12, .poland .f13, .poland .f14, .poland .f15 {
+	background-color: #d12417;
+}
+
+
+
+/*	Portugal	*/
+
+.portugal .f1, .portugal .f2, .portugal .f6, .portugal .f7, .portugal .f11, .portugal .f12 {
+	background-color: #2d9b4f;
+}
+
+.portugal .f3, .portugal .f4, .portugal .f5,
+.portugal .f8, .portugal .f9, .portugal .f10,
+.portugal .f13, .portugal .f14, .portugal .f15 {
+	background-color: #d33732;
+}
+
+
+
+/*	Romania		*/
+
+.romania .f1, .romania .f2, .romania .f6, .romania .f7, .romania .f11, .romania .f12 {
+	background-color: #002c81;
+}
+
+.romania .f3, .romania .f4, .romania .f8, .romania .f9, .romania .f13, .romania .f14 {
+	background-color: #fed100;
+}
+
+.romania .f5, .romania .f10, .romania .f15 {
+	background-color: #cd1f21;
+}
+
+
+
+/*	Slovakia	*/
+
+.slovakia .f1, .slovakia .f2, .slovakia .f3, .slovakia .f4, .slovakia .f5 {
+	background-color: #fff;
+}
+
+.slovakia .f6, .slovakia .f7, .slovakia .f8, .slovakia .f9, .slovakia .f10 {
+	background-color: #3744ba;
+}
+
+.slovakia .f11, .slovakia .f12, .slovakia .f13, .slovakia .f14, .slovakia .f15 {
+	background-color: #f2302b;
+}
+
+
+
+/*	Slovenia	*/
+
+.slovenia .f1, .slovenia .f2, .slovenia .f3, .slovenia .f4, .slovenia .f5 {
+	background-color: #fff;
+}
+
+.slovenia .f6, .slovenia .f7, .slovenia .f8, .slovenia .f9, .slovenia .f10 {
+	background-color: #3744ba;
+}
+
+.slovenia .f11, .slovenia .f12, .slovenia .f13, .slovenia .f14, .slovenia .f15 {
+	background-color: #f2302b;
+}
+
+
+
+/*	Spain	*/
+
+.spain .f1, .spain .f2, .spain .f3, .spain .f4, .spain .f5,
+.spain .f11, .spain .f12, .spain .f13, .spain .f14, .spain .f15 {
+	background-color: #bf3330
+}
+
+.spain .f6, .spain .f7, .spain .f8, .spain .f9, .spain .f10 {
+	background-color: #fbbd1d;
+}
+
+
+
+/*	Sweden	*/
+
+.sweden .f1, .sweden .f2, .sweden .f4, .sweden .f5, .sweden .f11, .sweden .f12, .sweden .f14, .sweden .f15 {
+	background-color: #02619b;
+}
+
+.sweden .f3, .sweden .f6, .sweden .f7, .sweden .f8, .sweden .f9, .sweden .f10, .sweden .f13 {
+	background-color: #d8b400;
+}
+
+
+
+/*	UK	*/
+
+.united.kingdom .f1, .united.kingdom .f2, .united.kingdom .f4, .united.kingdom .f5, .united.kingdom .f11, .united.kingdom .f12, .united.kingdom .f14, .united.kingdom .f15 {
+	background-color: #00257f;
+}
+
+.united.kingdom .f3, .united.kingdom .f6, .united.kingdom .f7, .united.kingdom .f8, .united.kingdom .f9, .united.kingdom .f10, .united.kingdom .f13 {
+	background-color: #ce2127;
+}
+
+
+
+/*	Footer	*/
+
+header article {	
+	position: fixed;	
+	top: 15px;	
+	right: 30px;
+}
+
+header .fb-like {	
+	position: fixed;	
+	top: 50px;	
+	right: 175px;
+}
+
+header .twitter-share-button {	
+	position: fixed;	
+	top: 50px;
+	right: 75px;
+}
+
+header #___plusone_0 {	
+	position: fixed;	
+	top: 50px;	
+	right: 0;
+}
